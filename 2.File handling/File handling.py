@@ -12,7 +12,7 @@ master.title("FLoginForm")
 master.geometry("800x600")
 
 
-#global declaration
+#global variable declaration
 nm=''
 lm=''
 mob=''
@@ -54,6 +54,8 @@ def msg():
     else:
         print("Email :",email)
 
+        
+#create pdf file
 def pdf_file():
 
     document=FPDF()
