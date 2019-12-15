@@ -3,7 +3,7 @@ from tkinter import *
 root=Tk()
 root.title("Database")
 root.geometry('{}x{}'.format(1920, 1080))
-db=pymysql.connect(host="Localhost",user="jatinmore",password="1234")
+db=pymysql.connect(host="Localhost",user="",password="")
 cursor=db.cursor()
 try:
     cursor.execute("CREATE DATABASE College_database_management")
