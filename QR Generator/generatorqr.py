@@ -4,7 +4,7 @@ qr = qrcode.QRCode(
     box_size=15,
     border=4,
 )
-data=("https://www.instagram.com/jatin_more/")
+data=("Enter text or url here")
 qr.add_data(data)
 qr.make(fit=True)
 
